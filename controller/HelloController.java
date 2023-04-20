@@ -13,7 +13,7 @@ public class HelloController {
 	public String index(Model model){
 		LocalDateTime nowDate = LocalDateTime.now();
 		
-		model.addAttribute("nowdate",nowDate );
+		model.addAttribute("nowdate:",nowDate );
 
 		return "hello";
 		
